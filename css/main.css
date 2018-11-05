@@ -1,0 +1,51 @@
+html {
+  font-family: Overpass, sans-serif;
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
+  color: #fff;
+}
+
+h1 {
+  margin: 0;
+}
+
+body ul li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+section {
+  width: 100%;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.text {
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
+}
+
+.icon img, .icon svg {
+  color: #fff;
+}
+
+h2, p {
+  text-align: left;
+}
+
+.btn-ghost {
+  border-color: rgba(255, 255, 255, 1);
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .text {
+    border-right: 2px solid rgba(255, 255, 255, 1);
+    border-bottom: none;
+  }
+
+}
